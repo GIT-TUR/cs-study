@@ -175,7 +175,7 @@ Spinlock의 경우 짧은 시간동안 lock을 획득하려고 할 때 유리함
 
 ## 모니터 (Monitor)
 
-**스레드 동기화**를 위해 설계된 고수준의 동기화 기법으로, 기본적으로 **뮤텍스(Mutex)**와 **조건변수(Condition Variable)**로 구성되어 있음
+**스레드 동기화**를 위해 설계된 고수준의 동기화 기법으로, 기본적으로 **뮤텍스(Mutex)** 와 **조건변수(Condition Variable)** 로 구성되어 있음
 
 **기본 동작 원리 및 특징**
 
@@ -249,7 +249,7 @@ void consume(data){
 - 데이터를 사용하고 난 이후에 버퍼 접근 권한을 반납
 - 버퍼에서 데이터 사용했으므로 `empty` 하나 증가
 
-## 독자-작가 문제 (Readers- Writers Problem)
+## 독자-작가 문제 (Readers Writers Problem)
 
 ### 문제 상황
 
