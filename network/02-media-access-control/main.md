@@ -195,7 +195,7 @@ L2 프레임(이더넷 프레임)의 구조는 아래와 같습니다:
 
 ### 7.1 DHCP에서 MAC 주소의 역할
 
-**DHCP (Dynamic Host Configuration Protocol)**는 네트워크 장치에 IP 주소를 자동으로 할당하는 프로토콜로, MAC 주소가 매우 중요한 역할을 합니다.
+**DHCP (Dynamic Host Configuration Protocol)** 는 네트워크 장치에 IP 주소를 자동으로 할당하는 프로토콜로, MAC 주소가 매우 중요한 역할을 합니다.
 
 - **IP 주소 할당 과정**:
   1.  네트워크에 연결된 클라이언트는 **DHCP Discover** 메시지를 브로드캐스트로 전송하며, 메시지에 자신의 MAC 주소를 포함합니다.
@@ -209,7 +209,7 @@ L2 프레임(이더넷 프레임)의 구조는 아래와 같습니다:
 
 ### 7.2 ARP와 MAC 주소
 
-**ARP (Address Resolution Protocol)**는 IP 주소를 MAC 주소로 변환하는 프로토콜입니다. 네트워크 통신에서 필수적으로 사용됩니다.
+**ARP (Address Resolution Protocol)** 는 IP 주소를 MAC 주소로 변환하는 프로토콜입니다. 네트워크 통신에서 필수적으로 사용됩니다.
 
 - **ARP 동작 방식**:
   1.  장치가 특정 IP 주소로 데이터를 전송하려면 해당 IP 주소에 대한 MAC 주소가 필요합니다.
