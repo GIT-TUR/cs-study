@@ -55,7 +55,6 @@ JWT는 Header, Payload, Signature로 구성됨:
 
 1. **Header**는 typ, alg로 구성
 
-- 예를 들어 일반적인 JWT 구성에 의하면 access와 refresh로 typ를 나누고
 - 암호화 알고리즘을 선택(SHA-256 등)해서 alg를 구성함
 
 2. **Payload**에는 식별을 위한 유저 정보가 들어있음
